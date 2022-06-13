@@ -1,0 +1,28 @@
+.Image {
+    border: 2px solid #00b894;
+}
+.Link {
+    text-decoration: none;
+    color: #00b894;
+}
+.Navigation {
+    position: flex !important;
+    align-items: right;
+}
+.ProCon {
+    font-size: 0.6em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.Description {
+    text-decoration: italic;
+    padding: 0.5em;
+    word-wrap: normal;
+}
+@media screen and (max-width: 800px) {
+    .ProCon {
+        font-size: 0.4em;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

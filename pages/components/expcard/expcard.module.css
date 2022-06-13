@@ -1,0 +1,24 @@
+.Image {
+    border: 2px solid #00b894;
+}
+.ExpCon {
+    font-size: 0.6em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.Description {
+    text-decoration: italic;
+    padding: 0.5em;
+    word-wrap: normal;
+}
+.frame {
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 800px) {
+    .ExpCon {
+        font-size: 0.4em;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

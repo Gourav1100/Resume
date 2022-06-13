@@ -1,0 +1,15 @@
+.Image {
+    border: 2px solid #00b894;
+}
+.EduCon {
+    font-size: 0.6em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+@media screen and (max-width: 800px) {
+    .EduCon {
+        font-size: 0.4em;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

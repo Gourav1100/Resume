@@ -1,0 +1,5 @@
+#!/bin/sh
+clear
+sudo yarn dev -H 192.168.29.240 -p 80
+clear
+

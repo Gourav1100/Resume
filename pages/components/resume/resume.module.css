@@ -1,0 +1,48 @@
+.Container {
+    font-family : Georgia, 'Times New Roman', Times, serif;
+    font-size : 2.4em;
+    user-select: none;
+    color: #00b894;
+    text-align: center;
+}
+.Description {
+    font-size: 0.5em;
+    font-weight: 400;
+    text-align: center;
+}
+.Image {
+    border: 5px solid #00b894;
+}
+.Link {
+    user-select: none;
+    text-decoration: none;
+    color: #00b894;
+    font-size: 0.4em;
+}
+.Passion {
+    width: 64px;
+    height: auto;
+    margin-left: 1em;
+}
+.Title {
+    font-weight: 600;
+    font-style: italic;
+}
+.VerticalPanel {
+    border-right: 5px solid #00b894;
+    margin-top: 0.8em;
+}
+.Title :hover, .Description :hover {
+    color: #0984e3;
+    animation: slomo 1s ease-out;
+}
+@keyframes slomo {
+    from {
+        color: #00b894;
+        border: none;
+    }
+    to {
+        border-bottom: 1px dotted #00b894;
+        color: #0984e3;
+    }
+}
