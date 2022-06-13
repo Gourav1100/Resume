@@ -24,7 +24,7 @@ export default function Resume() {
                 sx={{ backgroundColor: "#2d3436", padding: 4, }}>
                 <Grid maxWidth container
                     spacing={4}>
-                    <Grid item lg={3} justifyContent="center"
+                    <Grid item xs={12} lg={3} justifyContent="center"
                     alignItems="center" sx={{display: "flex"}}>
                         <Avatar
                             className={styles.Image}
@@ -33,7 +33,7 @@ export default function Resume() {
                             sx={{ width: 300, height: 300, bgcolor: "#002699", fontSize: 50, }}
                         />
                     </Grid>
-                    <Grid item lg={6} justifyContent="center"
+                    <Grid item xs={12} lg={6} justifyContent="center"
                     alignItems="center" sx={{display: "flex"}}>
                         <Grid container
                             spacing={3}
@@ -50,8 +50,7 @@ export default function Resume() {
                             </Grid>
                         </Grid>
                     </Grid>
-                    <Grid item lg={3} justifyContent="center"
-                    alignItems="center" sx={{display: "flex", textAlign: "left"}}>
+                    <Grid item xs={12} lg={3} sx={{display: "flex", textAlign: "left"}}>
                         <Grid container sx={{ padding: 2, }}>
                             <Grid item xs={12}>
                                 <a className={styles.Link} href="https://github.com/Gourav1100">
