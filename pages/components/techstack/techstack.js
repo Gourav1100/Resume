@@ -3,16 +3,16 @@ import styles from "./techstack.module.css";
 
 export default function TechStack({urls}){
     return(
-        <div>
+        <>
            <Grid container maxWidth sx={{textAlign: "right", display: "flex"}}
            justifyContent="right" alignItems="right" spacing={2}>
-           { urls.map((item)=>{
+           { urls?(urls.map((item)=>{
                 return (
                 <Grid item xs={3} md={2} sx={{padding: 2, textAlign: "center"}}>
                     <img src={item} className={styles.Image} />
                 </Grid>);
-           })}
+           })):(<></>)}
            </Grid>
-        </div>
+        </>
     );
 }
