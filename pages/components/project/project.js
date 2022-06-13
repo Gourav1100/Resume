@@ -22,41 +22,45 @@ const handleChange = (event, value) => {
     return true;
 };
 export default function Project({projects}){
-    var number_of_projects = projects.length;
-    var id=0;
-    return (<>
-        <Grid container maxWidth>
-            <Grid item xs={12} justifyContent="right" alignItems="right" sx={{display: "flex"}}>
-                {
-                    projects.map((item)=>{
-                        id++;
-                        if( id === 1 ){
-                            return (<div id={id.toString()}
-                                    style={{display: "block",}}>
-                                <ProjectCard
-                                    title={item.title}
-                                    url={item.url}
-                                /></div>);
-                        }
-                        else{
-                            return (<div id={id.toString()}
-                                    style={{display: "none"}}>
-                                <ProjectCard
-                                    title={item.title}
-                                    url={item.url}
-                                /></div>);
-                        }
+    if(projects){
+        var number_of_projects = projects.length;
+        var id=0;
+        return (<>
+            <Grid container maxWidth>
+                <Grid item xs={12} justifyContent="right" alignItems="right" sx={{display: "flex"}}>
+                    {
+                        projects.map((item)=>{
+                            id++;
+                            if( id === 1 ){
+                                return (<div id={id.toString()}
+                                        style={{display: "block",}}>
+                                    <ProjectCard
+                                        title={item.title}
+                                        url={item.url}
+                                    /></div>);
+                            }
+                            else{
+                                return (<div id={id.toString()}
+                                        style={{display: "none"}}>
+                                    <ProjectCard
+                                        title={item.title}
+                                        url={item.url}
+                                    /></div>);
+                            }
 
-                    })
-                }
+                        })
+                    }
+                </Grid>
+                <Grid item xs={12} justifyContent="right" alignItems="right" sx={{display: "flex",}}>
+                    <Pagination count={number_of_projects} variant="outlined" color="secondary"
+                        onChange={handleChange} className={styles.Navigation}
+                        siblingCount={0}/>
+                </Grid>
             </Grid>
-            <Grid item xs={12} justifyContent="right" alignItems="right" sx={{display: "flex",}}>
-                <Pagination count={number_of_projects} variant="outlined" color="secondary"
-                    onChange={handleChange} className={styles.Navigation}
-                    siblingCount={0}/>
-            </Grid>
-        </Grid>
-    </>);
+        </>);
+    }
+    return(<></>);
+
 }
 
 function ProjectCard({title, url}){
