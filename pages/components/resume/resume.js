@@ -188,7 +188,7 @@ export default function Resume() {
                                     },
                                     {
                                         title: "Live-Chat",
-                                        url: "https://github.com/Gourav1100/mediaplayer"
+                                        url: "https://github.com/Gourav1100/Live-Chat"
                                     },
                                     {
                                         title: (<div style={{ fontSize: "0.9em" }}>Classroom Management System<br /> (IIT Jammu)</div>),
