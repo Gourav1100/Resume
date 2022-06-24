@@ -187,8 +187,12 @@ export default function Resume() {
                                         url: "https://github.com/Gourav1100/mediaplayer"
                                     },
                                     {
+                                        title: "Live-Chat",
+                                        url: "https://github.com/Gourav1100/mediaplayer"
+                                    },
+                                    {
                                         title: (<div style={{ fontSize: "0.9em" }}>Classroom Management System<br /> (IIT Jammu)</div>),
-                                        url: "https://github.com/Gourav1100/IIT_JMU_Classroom"
+                                        url: "https://github.com/Gourav1100/Live-Chat"
                                     },
                                     {
                                         title: "Face Landmark Recognition",
