@@ -221,7 +221,28 @@ export default function Resume() {
                                     {
                                         title: "CSE Semester Projects",
                                         url: "https://github.com/Gourav1100/CSE-Projects/"
-                                    }]} />
+                                    },
+                                    {
+                                        title: "Tic-Tac-Toe",
+                                        url: "https://github.com/Gourav1100/TicTacToe"
+                                    },
+                                    {
+                                        title: "Text-Editor",
+                                        url: "https://github.com/Gourav1100/TextEditor"
+                                    },
+                                    {
+                                        title: "Pico Performance",
+                                        url: "https://github.com/ShisuiMadara/PicoPerformance"
+                                    },
+                                    {
+                                        title: "Karmath",
+                                        url: "https://github.com/ShisuiMadara/PicoPerformance"
+                                    },
+                                    {
+                                        title: "Imagenie",
+                                        url: "https://github.com/ShisuiMadara/Imagenie"
+                                    }
+                                    ]} />
                             </Grid>
                         </Grid>
                         <Grid container className={styles.VerticalPanel} sx={{ padding: 1, display: "flex" }} justifyContent="right" alignItems="right">
@@ -246,6 +267,14 @@ export default function Resume() {
                                     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
                                     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
                                     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
+                                    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original-wordmark.svg",
+                                    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
+                                    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg",
+                                    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg",
+                                    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg",
+                                    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
+                                    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+                                    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original-wordmark.svg"
                                 ]} />
                             </Grid>
                         </Grid>
